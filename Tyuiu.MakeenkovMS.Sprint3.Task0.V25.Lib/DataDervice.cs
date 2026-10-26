@@ -10,7 +10,7 @@ namespace Tyuiu.MakeenkovMS.Sprint3.Task0.V25.Lib
 
             for (int i = startValue; i <= stopValue; i++)
             {
-                sumSeries += Math.Pow(4.0 / (1.0 + Math.Pow(value, i)), 2);
+                sumSeries += Math.Pow(4.0 / (1.0 + Math.Pow(value, i)), i);
             }
 
             return Math.Round(sumSeries, 3);
