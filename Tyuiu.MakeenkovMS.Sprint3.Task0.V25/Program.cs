@@ -8,13 +8,13 @@ namespace Tyuiu.MakeenkovMS.Sprint3.Task0.V25
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #3 | Выполнил: Макенков М. С.";
+            Console.Title = "Спринт #3 | Выполнил: Макенков М. С. | Группа: ПИНб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* СПРИНТ #3                                                               *");
             Console.WriteLine("* Тема: Оператор цикла for                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #25                                                             *");
-            Console.WriteLine("* Выполнил: Макенков Максим Сергеевич                                     *");
+            Console.WriteLine("* Выполнил: Макенков Максим Сергеевич | Группа: ПИНб-26-1                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу используя цикл for, которая вычисляет сумму ряда     *");
