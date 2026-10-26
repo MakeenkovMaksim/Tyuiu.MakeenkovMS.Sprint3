@@ -11,11 +11,11 @@ namespace Tyuiu.MakeenkovMS.Sprint3.Task1.V16.Lib
 
             while (i <= stopValue)
             {
-                sumSeries += Math.Pow(value, 2) * Math.Sin(i);
+                sumSeries += (Math.Pow(value, 2) * Math.Sin(i)) + 1;
                 i++;
             }
 
-            return Math.Round(sumSeries + 1, 3);
+            return Math.Round(sumSeries, 3);
         }
     }
 }
