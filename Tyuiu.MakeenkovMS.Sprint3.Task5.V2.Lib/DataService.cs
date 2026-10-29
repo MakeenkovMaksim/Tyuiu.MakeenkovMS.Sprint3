@@ -11,7 +11,7 @@ namespace Tyuiu.MakeenkovMS.Sprint3.Task5.V2.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sum += (Math.Cos(k) + value) / value;
+                    sum += (Math.Cos(k) + value) / (double)value;
                 }
             }
             return Math.Round(sum, 3);
